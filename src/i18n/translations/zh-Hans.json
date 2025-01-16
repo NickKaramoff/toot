@@ -1,1 +1,25 @@
-{}
+{
+    "metaDescription": "Share₂Fedi 是一个用于 Mastodon、Misskey、Friendica 等的分享页面。输入您的帖子文本和实例 URL，然后点击“发布”！",
+    "description": "Share₂Fedi 是一个与实例无关的分享页面，适用于 {}。通过它，您可以从一个页面向多个联邦平台发布内容。",
+    "fediverse": "联邦宇宙",
+    "supportedProjects": "支持的项目：",
+    "credits": "Share₂Fedi 由 {} 开发和维护。源代码在 {}。托管于 {}。 {}。",
+    "nikita": "尼基塔·卡拉莫夫",
+    "onGitHub": "GitHub 上",
+    "statusPage": "状态页面",
+    "licence": "许可证",
+    "licence1": "Share₂Fedi 是自由软件：您可以根据自由软件基金会发布的 GNU Affero 通用公共许可证第 3 版的条款重新分发和/或修改它。",
+    "licence2": "Share₂Fedi 的分发是希望它能有用，但不提供任何担保；甚至不包括对适销性或特定用途适用性的默示担保。有关更多详细信息，请参见 GNU Affero 通用公共许可证。",
+    "privacyNotice": "隐私通知",
+    "privacy1": "s2f.kytta.dev 托管在 Vercel 上。Vercel 处理 IP 地址、系统配置信息以及有关 s2f.kytta.dev 的流量的其他信息。Vercel 不存储这些信息，也不与第三方共享。有关更多信息，请参见 {}。",
+    "privacy2": "当您点击“发布”按钮时，您将被重定向到您指定的联邦宇宙实例。它可能会处理和/或存储您的数据。请参阅相应实例的隐私政策。",
+    "postTextPlaceholder": "您在想什么？",
+    "instance": "联邦宇宙实例",
+    "previouslyUsed": "之前使用过：",
+    "rememberInstance": "在此设备上记住实例",
+    "publish": "发布",
+    "language": "语言：",
+    "incl": "包括：",
+    "vercelPP": "Vercel 的隐私政策",
+    "postText": "帖子文本"
+}
