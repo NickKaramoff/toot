@@ -37,7 +37,7 @@ export const GET: APIRoute = async ({ params }) => {
 		},
 		200,
 		{
-			"Cache-Control": "public, s-maxage=86400, max-age=604800",
+			"Cache-Control": "public, s-maxage=604800, max-age=604800",
 		},
 	);
 };

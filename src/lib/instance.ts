@@ -6,7 +6,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
+import process from "node:process";
 import { supportedProjects } from "./project";
+import {
+	version,
+	repository,
+} from "../../package.json" assert { type: "json" };
 
 interface Instance {
 	domain: string;
@@ -22,9 +27,9 @@ const getInstancesForProject = async (
 	try {
 		const response = await fetch("https://api.fediverse.observer/", {
 			headers: {
-				Accept: "*/*",
-				"Accept-Language": "en;q=1.0",
+				Accept: "application/json",
 				"Content-Type": "application/json",
+				"User-Agent": `Share2Fedi/${version} (${repository.url}) node/${process.versions.node}`,
 			},
 			body: JSON.stringify({
 				query: `{nodes(status:"UP",softwarename:"${project}"){domain score active_users_monthly total_users}}`,
