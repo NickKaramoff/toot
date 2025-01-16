@@ -76,6 +76,6 @@
 		"extends": "stylelint-config-standard-scss"
 	},
 	"engines": {
-		"node": "^18.17.0 || >= 20.3.0"
+		"node": "^18.17.0"
 	}
 }
